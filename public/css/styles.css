@@ -1,0 +1,149 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #FF6B00;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+a.cta-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #FF6B00;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  border: 1px solid #FF6B00;
+}
+
+a.cta-button:hover {
+  background-color: #FF8533;
+  border-color: #FF8533;
+  color: white;
+}
+
+/* Navigation Menu Styling */
+nav {
+  background-color: #FF8533;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 10px;
+}
+
+nav ul li a:hover {
+  background-color: #FF6B00;
+  color: white;
+  border-radius: 5px;
+}
+
+/* About Us, Contact, and Try Neiji Sections */
+section {
+  padding: 20px;
+  margin: 20px 0;
+  text-align: center;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+section h2 {
+  color: #FF6B00;
+}
+
+section p {
+  margin: 10px 0;
+}
+
+/* Blog Page Styling */
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+article {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+article h2 {
+  margin-top: 0;
+  color: #FF6B00;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer a {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+footer img {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+}
+
+footer img:hover {
+  opacity: 0.8;
+}
+
+/* Success States */
+.success {
+  color: #FF6B00;
+}
+
+/* Status Indicators */
+.status-active {
+  background-color: #FF6B00;
+}
+
+/* Links and Interactive Elements */
+a:hover {
+  color: #FF6B00;
+}

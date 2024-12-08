@@ -1,0 +1,15 @@
+{
+  "name": "neiji",
+  "version": "1.0.0",
+  "description": "Neiji app website",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ejs": "^3.1.9",
+    "multer": "^1.4.5-lts.1",
+    "fs-extra": "^11.1.1"
+  }
+}
