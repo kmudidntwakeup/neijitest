@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Try Neiji Now</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/manga-viewer.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Try Neiji Now</h1>
+        <p>Experience the future of connectivity today! Start reading our manga to learn more about the World Tree.</p>
+        <button id="start-reading" class="cta-button">Start Reading</button>
+    </header>
+
+    <!-- Manga Viewer -->
+    <div id="manga-viewer" class="manga-viewer">
+        <button id="close-viewer" class="close-viewer">×</button>
+        <div class="manga-container">
+            <img class="manga-page" alt="World Tree Manga Page">
+            <div class="loading-indicator" style="display: none;">Loading...</div>
+        </div>
+        <div class="scroll-indicator">
+            Scroll to read
+            <div class="scroll-arrow">↓</div>
+        </div>
+    </div>
+
+    <footer>
+        <a href="https://www.linkedin.com/company/neiji" target="_blank">
+            <img src="https://img.icons8.com/?size=100&id=13930&format=png&color=000000" alt="LinkedIn">
+        </a>
+    </footer>
+
+    <script type="module" src="/js/manga-viewer.js"></script>
+
+    <style>
+        .manga-page {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        
+        #manga-viewer {
+            margin-top: 20px;
+        }
+        
+        .start-reading-btn {
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</body>
+</html>
